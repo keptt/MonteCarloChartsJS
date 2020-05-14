@@ -1,0 +1,17 @@
+{
+  "name": "montecarlo_lab7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "electron": "^8.2.5",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}

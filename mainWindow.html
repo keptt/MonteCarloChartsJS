@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>laba 7</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/chart.js/dist/Chart.min.css">
+    <style>
+        .container-fluid {
+            padding: 0;
+            /* justify-content: center;
+            align-items: center;
+            text-align: center; */
+        }
+
+        .navbar {
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        /* canvas {
+            background-color: white;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#"><h2>Charts</h2></a>
+        </nav>
+        <div class="display">
+            <canvas id="chart1">No browser support for canvas. Consider using other browser</canvas>
+            <canvas id="chart2"></canvas>
+            <canvas id="chart3"></canvas>
+        </div>
+        <script src="./node_modules/chart.js/dist/Chart.min.js"></script>
+        <script src="./mWRenderer.js"></script>
+    </div>
+</body>
